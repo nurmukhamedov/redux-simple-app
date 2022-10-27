@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(53, 53, 53);
+  color: white;
+ 
 }
-
+ 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ 
+section {
+  width: 50%;
+  margin: auto;
+}
+form label {
+ font-size: 20px;
+ font-weight: bold;
+ display: block;
+ padding: 10px 0;
+}
+form input {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+form button {
+  display: block;
+  margin-top: 10px;
 }
