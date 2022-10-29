@@ -16,8 +16,8 @@ const PostsList = () => {
     }
   }, [postStatus, dispatch]);
 
-  const allData = posts.map((post, index) => {
-    return <h1 key={index}>{post.name.common}</h1>;
+  const allData = posts.map((post, id) => {
+    return <h1 key={id}>{post.name.common}</h1>;
   });
   return (
     <section>
